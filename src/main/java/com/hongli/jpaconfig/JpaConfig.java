@@ -37,7 +37,7 @@ public class JpaConfig {
         BasicDataSource dataSource = new BasicDataSource();
 
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://www.curvelife.cn:3306/springcore?characterEncoding=utf8");
+        dataSource.setUrl("jdbc:mysql://*.*.*.*:3306/springcore?characterEncoding=utf8");
         dataSource.setUsername("root");
         dataSource.setPassword("123456");
         dataSource.setInitialSize(5);

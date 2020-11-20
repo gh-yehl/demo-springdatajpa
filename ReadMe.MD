@@ -1,6 +1,6 @@
 基于注解的方式 配置Spring Data JPA (Spring5 + Spring Data JPA)
 
-1 - POM使用说明：见POM 文件
+1 - 依赖包说明：见POM 文件
 
 2 - 配置 - 详细见 JpaConfig类
 

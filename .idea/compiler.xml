@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo-springdatajpa" />
+        <module name="demo-springdatajpa-annotation" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo-springdatajpa" options="" />
+      <module name="demo-springdatajpa-annotation" options="" />
     </option>
   </component>
 </project>
